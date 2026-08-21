@@ -10,7 +10,7 @@ An open-source hardware and firmware implementation of a 3-phase DC-to-AC power 
 * **Emaan Imtiaz** 
 * **Ahmed Jahanzeb** 
 * **Haaris Mustufa Khan** 
-bridge
+
 
 **Course:** Electric Network Analysis | **Department:** Computer Engineering | **Date:** May 6, 2026
 
