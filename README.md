@@ -30,7 +30,7 @@ The final schematic, documented in `docs/ena project.pdf`, consists of the follo
 * **Transformers:** 3× Center-Tapped Step-Up Transformers (`XFRM_LIN/CT-PRI`)
 
 ## Schematic & Documentation
-The updated project schematic is located in the `docs/` directory (`ena project.pdf`). The hardware control buttons (Set/Reset) were removed from earlier prototypes to create a streamlined, auto-enabling inverter circuit controlled directly by software safety logic.
+The updated project schematic is located in the `docs/` directory (`project-schematic.pdf`). The hardware control buttons (Set/Reset) were removed from earlier prototypes to create a streamlined, auto-enabling inverter circuit controlled directly by software safety logic.
 
 ## References
 * Mousa-Simple projects: Arduino 3-phase inverter 12V-380V
