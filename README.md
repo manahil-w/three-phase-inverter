@@ -32,5 +32,8 @@ The final schematic, documented in `docs/ena project.pdf`, consists of the follo
 ## Schematic & Documentation
 The updated project schematic is located in the `docs/` directory (`project-schematic.pdf`). The hardware control buttons (Set/Reset) were removed from earlier prototypes to create a streamlined, auto-enabling inverter circuit controlled directly by software safety logic.
 
+> **Important Circuit Note (Galvanic Isolation):** 
+> To maintain true optical isolation between the low-power logic stage (Arduino) and the high-power inverter stage (MOSFET bridge & battery), `Arduino GND` must remain completely separate from `Battery -` (Power Ground). Connecting these grounds together bypasses the PC817 optocouplers and exposes the microcontroller to switching noise and ground bounce.
+
 ## References
 * Mousa-Simple projects: Arduino 3-phase inverter 12V-380V
